@@ -1,0 +1,7 @@
+header {
+    background-color: #35
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
