@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react';
 
     function Header() {
         return (
-            <header>Home</header>
+            <header  style={{color: 'black', padding: '50px'}}>Home</header>
         )
     }
 

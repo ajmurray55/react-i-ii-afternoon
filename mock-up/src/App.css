@@ -1,7 +1,44 @@
-header {
-    background-color: #35
+Header {
+    background-color: lightskyblue;
     width: 100vw;
-    height: 10vh;
+    height: 30px;
     display: flex;
     align-items: center;
-}
+    font-weight: 700;
+    font-size: larger;
+ } 
+
+ .OuterContainer {
+    width: 100vw;
+    height:100vh;
+    background-color: black;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .InnerContainer {
+     background-color:  white;
+     width: 80vw;
+     height: 60vh;
+     
+
+ }
+
+ .NavBar {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-evenly;
+    /* padding-bottom: 00px; */
+   
+ }
+
+ .MiddleButtons {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-evenly
+ }

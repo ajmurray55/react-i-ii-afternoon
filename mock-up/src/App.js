@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import data from "./data.js";
-import Header from "./Header.js"
+import Header from "./Header"
+import Card from "./Card"
+import Nav from "./Nav"
 
 class App extends Component {
   constructor() {
@@ -19,6 +21,11 @@ class App extends Component {
         <div></div>
 
 
+      <Header />
+
+      <Card name={this.props.data}/>
+
+      <Nav />
 
       </div>
     );
